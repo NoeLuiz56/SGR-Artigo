@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  ml-classifier:
+    build: .
+    container_name: ml-classifier
+    ports:
+      - "5000:5000"
+    restart: always

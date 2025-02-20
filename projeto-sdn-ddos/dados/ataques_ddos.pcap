@@ -1,0 +1,2 @@
+touch /projeto-sdn-ddos/dados/ataques_ddos.pcap
+echo "Simulação de pacotes de ataque DDoS. Arquivo não contém dados reais." > /projeto-sdn-ddos/dados/ataques_ddos.pcap

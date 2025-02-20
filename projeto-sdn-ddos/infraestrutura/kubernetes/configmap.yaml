@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ai-config
+data:
+  AI_MODE: "deep_learning"
+  LOG_LEVEL: "info"
+  DEBUG: "false"
+  MAX_NODES: "4"
